@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        label {
+            font-size: 120%;
+            font-weight: 550;
+        }
+
+        body { 
+            font-family: verdana; 
+            margin: 40px; 
+            background-color: palegreen; 
+        } 
+        form { 
+            background-color: lemonchiffon; 
+            padding: 40px; 
+            border-radius: 60px; 
+            box-shadow: 8px 5px 9px rgba(6,7,3,9.8); 
+            max-width: 600px; 
+            margin: auto; 
+            margin-top: 39px;
+        } 
+        form div { 
+            margin-bottom: 10px; 
+        } 
+        label { 
+            display: ruby-base-container; 
+            font-weight: bolder; 
+            margin-bottom: 5px; 
+        } 
+        input[type="text"],  
+        input[type="email"],  
+        input[type="password"],  
+        input[type="date"],  
+        input[type="file"],
+        input[type="fathername"],   
+        select,  
+        textarea { 
+            width: 60%; 
+            padding: 8px; 
+            margin-top: 2px; 
+            border: 2px red; 
+            border-radius: 5px; 
+        } 
+        input[type="checkbox"],  
+        input[type="radio"] 
+        { 
+            margin-right: 5px; 
+        } 
+        button { 
+            background-color: purple; 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        } 
+        button:hover { 
+            background-color: red; 
+        } 
+    </style>
+    
+</head>
+<body>
+    <div class="mheader">
+      <h1><U>MY PROFESSIONAL PORTFILIO</U></h1>
+      </div>
+      <div class="mnav">
+        <ul>
+          <a href="Aboutme.html">ABOUT ME</a>
+          <a href="SkillSection.html">SKILL SECTION</a>
+          <a href="Projects.html">PROJECTS</a>
+          <a href="#">CONTACT</a>
+        </ul>
+      </div>
+    
+      <form action="#" method="post" enctype="multipart/form-data">
+    <h1><center> USER LOG-IN FORM</center></h1>
+    <div>
+        <label for="fullname"><u>FULL NAME:</u></label>
+        <BR>
+        <input type="text" id="fullname" name="fullname" required>
+    </div>
+    <BR>
+   
+    
+    <div>
+        <label for="date"> <u>DATE:</u></label>
+        <BR>
+            <input type="date" id="DATE" name="DATE" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">EMAIL:</label>
+        <br>
+        <input type="email" id="email"  
+    </div>
+    <br>
+    <div>
+        <label for="password">PASSWORD:</label>
+        <br>
+        <input type="password" id="password" name="password">
+    </div>
+    <br>
+   
+
+<div> 
+    <label for="profile">Upload Profile Picture:</label> 
+    <br>
+    <input type="file" id="profile" name="profile"> 
+</div> 
+<br>
+
+<div> 
+    <label for="about">About Yourself:</label> 
+    <br>
+    <textarea id="about" name="about" rows="5"></textarea> 
+</div> 
+<br>
+
+<div> 
+    <button type="submit">Submit Form</button> 
+    <button type="reset">Reset</button> 
+</div> 
+
+</form> 
+</body>
+</html>
+
+
+
+
+    
